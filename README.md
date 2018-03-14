@@ -1,25 +1,17 @@
-# ReduxSimpleStarter
+# ReduxSimpleStarter, Completed
+The result of working through the first two sections of the [Modern React with Redux](https://www.udemy.com/react-redux/learn/v4/) udemy course. In spite of the name, redux is *not* yet used (component-level state, instead).  
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Original, incomplete project can be found [here](https://github.com/StephenGrider/ReduxSimpleStarter.git). All credit goes to Stephen Grider for his awesome introduction to React.
 
 ### Getting Started
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Perform the following to get up and running:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
+> git clone https://github.com/slash-fury/udemy-ReduxSimpleStarter-completed.git
 > cd ReduxSimpleStarter
 > npm install
 > npm start
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+**Note:** In order to perform searches with the Youtube API, you'll need to generate an API key with Google. You can do so [here](http://console.developers.google.com/). Once you have generated a key, simply replace the value of *API_KEY* in `src/index.js`.
